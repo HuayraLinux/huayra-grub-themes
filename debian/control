@@ -1,0 +1,14 @@
+Source: huayra-grub-themes
+Section: graphics
+Priority: extra
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://huayra.conectarigualdad.gob.ar
+
+Package: huayra-grub-themes
+Architecture: all
+Depends: ${misc:Depends}, debianutils (>= 4.3.2),
+Description: Temas para grub de Huayra
+ Colección de temas para grub de Huayra GNU/Linux
+
