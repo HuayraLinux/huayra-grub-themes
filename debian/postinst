@@ -12,7 +12,7 @@ if [ "$1" = "configure" ]; then
 
 	# The following only on a new install
 	if [ "$2" = "" ]; then
-
+    echo -e "Instalando temas de grub"
 	fi
 
 	db_get huayra-grub-themes/set_theme
@@ -20,7 +20,7 @@ if [ "$1" = "configure" ]; then
 
 	db_get huayra-grub-themes/theme
   theme="$RET"
-  if [ "$set_theme" = "true" ];
+  if [ "$set_theme" = "true" ]; then
     i=$(sed -n 's,^#\?GRUB_THEME=,&,p' $Grub_File)
     if [[ -z $i ]]; then
       echo -e "\nGRUB_THEME=$theme/theme.txt" >>$Grub_File
@@ -32,8 +32,6 @@ if [ "$1" = "configure" ]; then
   fi
 fi
 
-
 #DEBHELPER#
 
 exit 0
-
