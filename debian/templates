@@ -6,7 +6,7 @@ Description: Instalación automatica del tema:
 
 Template: huayra-grub-themes/theme
 Type: select
-Choices: ninguno, huayra-limbo
+Choices: huayra-limbo
 Default: huayra-limbo
 Description: Tema para grub:
  Seleccione el tema que desea habilitar en grub
