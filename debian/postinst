@@ -1,0 +1,39 @@
+#!/bin/sh
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+Grub_File=/etc/default/grub
+
+if [ "$1" = "configure" ]; then
+
+	db_version 2.0
+
+	# The following only on a new install
+	if [ "$2" = "" ]; then
+
+	fi
+
+	db_get huayra-grub-themes/set_theme
+	set_theme="$RET"
+
+	db_get huayra-grub-themes/theme
+  theme="$RET"
+  if [ "$set_theme" = "true" ];
+    i=$(sed -n 's,^#\?GRUB_THEME=,&,p' $Grub_File)
+    if [[ -z $i ]]; then
+      echo -e "\nGRUB_THEME=$theme/theme.txt" >>$Grub_File
+    else
+      sed "s,^#\?GRUB_THEME=.*,GRUB_THEME=$theme/theme.txt," <$Grub_File >$Grub_File.~
+      mv $Grub_File.~ $Grub_File
+    fi
+    update-grub
+  fi
+fi
+
+
+#DEBHELPER#
+
+exit 0
+
