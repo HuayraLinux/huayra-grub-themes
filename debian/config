@@ -7,7 +7,9 @@ set -e
 db_version 2.0
 
 db_input low huayra-grub-themes/set_theme || true
-db_input low huayra-grub-themes/theme || true
+db_go
 
-db_go || true
-
+if [ "$RET" = "true" ]; then
+  db_input low huayra-grub-themes/theme || true
+  db_go
+fi

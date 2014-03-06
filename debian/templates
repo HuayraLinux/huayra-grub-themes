@@ -2,11 +2,11 @@ Template: huayra-grub-themes/set_theme
 Type: boolean
 Default: false
 Description: Instalación automatica del tema:
- Desea modificar el grub para instalar el tema?
+ Indique si desea modificar el grub para instalar el tema
 
 Template: huayra-grub-themes/theme
 Type: select
-Choices: Ninguno, Huayra Limbo
-Default: Ninguno
+Choices: ninguno, huayra-limbo
+Default: huayra-limbo
 Description: Tema para grub:
  Seleccione el tema que desea habilitar en grub
