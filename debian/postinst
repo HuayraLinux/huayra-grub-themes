@@ -15,7 +15,7 @@ if [ "$1" = "configure" ]; then
     echo "Instalando temas de grub por primera vez"
 	fi
 
-  db_get huayra-grub/set_theme
+  db_get huayra-grub-themes/set_theme
 	set_theme="$RET"
 
   if [ "$set_theme" = "true" ]; then

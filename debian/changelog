@@ -1,3 +1,9 @@
+huayra-grub-themes (1.5) unstable; urgency=medium
+
+  * correccion nombre de tempate en postinst 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 06 Mar 2014 17:48:35 -0300
+
 huayra-grub-themes (1.4) unstable; urgency=medium
 
   * sacando dependencia de grub (pipuparts no se ejecuta) 
