@@ -5,6 +5,7 @@ set -e
 . /usr/share/debconf/confmodule
 
 Grub_File=/etc/default/grub
+Theme_dir=/boot/grub/themes
 
 if [ "$1" = "configure" ]; then
 
@@ -28,10 +29,10 @@ if [ "$1" = "configure" ]; then
 
     if [ -z $i ]; then
       echo "Agregando tema al grub"
-      echo "\nGRUB_THEME=$theme/theme.txt" >>$Grub_File
+      echo "\nGRUB_THEME=$Theme_Dir/$theme/theme.txt" >>$Grub_File
     else
       echo "Reemplazando el tema actual por $theme"
-      sed "s,^#\?GRUB_THEME=.*,GRUB_THEME=$theme/theme.txt," <$Grub_File >$Grub_File.~
+      sed "s,^#\?GRUB_THEME=.*,GRUB_THEME=$Theme_Dir/$theme/theme.txt," <$Grub_File >$Grub_File.~
       mv $Grub_File.~ $Grub_File
     fi
     echo "Actualizando grub"
