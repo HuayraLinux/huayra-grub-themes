@@ -1,6 +1,6 @@
 Template: huayra-grub-themes/set_theme
 Type: boolean
-Default: false
+Default: true
 Description: Instalación automatica del tema:
  Indique si desea modificar el grub para instalar el tema
 
