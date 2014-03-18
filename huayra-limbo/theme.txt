@@ -4,17 +4,17 @@
 
 # Global Property
 title-text: ""
-title-font: "Sans Regular 12"
+title-font: "Asap Regular 11"
 title-color: "#000000"
-message-font: "Fixed Regular 13"
+message-font: "Asap Regular 11"
 message-color: "#FFFFFF"
 message-bg-color: "#f6f6f6"
 desktop-image: "fondo.png"
 desktop-color: "#000000"
 terminal-box: "menu_bkg_*.png"
-terminal-font: "Fixed Regular 13"
+terminal-font: "Sans Regular 12"
 
-# Show the boot menu
+# Menu de arranque
 + boot_menu {
 		left = 15%
 		width = 70%
@@ -32,36 +32,46 @@ terminal-font: "Fixed Regular 13"
 		item_icon_space = 20
 		selected_item_pixmap_style= "select_bkg_*.png"
 		menu_pixmap_style = "menu_bkg_*.png"
-		scrollbar = false
+		scrollbar = true
 		scrollbar_width = 18
 		scrollbar_thumb = "sb_thumb_*.png"
 		scrollbar_frame = "sb_frame_*.png"
 }
 
-# Show a styled horizontal progress bar
+# Carga logo de Conectar Igualdad
++ image {
+	top = 5%
+	left = 50%-154
+	width = 307
+	height = 29
+	file = "conectar_igualdad.png"
+}
+
+
+# Barra de progreso horizontal
 + progress_bar {
 		id = "__timeout__"
 		left = 25%
 		width = 50%
 		top = 90%
 		height = 8
-		font = "Asap Regular 8"
+		font = "Asap Regular 11"
 		text_color = "255, 255, 255"
-		text = "Huayra Limbo - Conectar Igualdad"
+		text = "Conectar Igualdad"
 		show_text = false
 		bar_style = "progress_bar_*.png"
 		highlight_style = "progress_highlight_*.png"
 }
 
 
-# Show an informational message.
+# Mensaje con instrucciones
 + hbox {
 		top = 100%-22
 		left = 20%
 		+ label {text = "Enter: " font = "Asap Regular 11" color = "black" align = "left"}
-		+ label {text = "Iniciar Sistema     " font = "Asap Regular 8" color = "#333333" align = "left"}
+		+ label {text = "Iniciar Sistema     " font = "Asap Regular 11" color = "#333333" align = "left"}
 		+ label {text = "E: " font = "Asap Regular 11" color = "black" align = "left"}
-		+ label {text = "Editar Seleccion     " font = "Asap Regular 8" color = "#333333" align = "left"}
-		+ label {text = "C: " font = "Asap Regular 10" color = "black" align = "left"}
-		+ label {text = "Linea de comando GRUB" font = "Asap Regular 8" color = "#333333" align = "left"}
+		+ label {text = "Editar Seleccion     " font = "Asap Regular 11" color = "#333333" align = "left"}
+		+ label {text = "C: " font = "Asap Regular 11" color = "black" align = "left"}
+		+ label {text = "Linea de comando GRUB" font = "Asap Regular 11" color = "#333333" align = "left"}
 }
