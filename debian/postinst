@@ -21,22 +21,25 @@ if [ "$1" = "configure" ]; then
 
   if [ "$set_theme" = "true" ]; then
 
-  	db_get huayra-grub-themes/theme
+    db_get huayra-grub-themes/theme
     theme="$RET"
 
-    echo "Comprobando si existe un thema actual en grub"
-    i=$(sed -n 's,^#\?GRUB_THEME=,&,p' $Grub_File)
+    if [ -f $Grub_File ];
+    then
+        echo "Comprobando si existe un thema actual en grub"
+        i=$(sed -n 's,^#\?GRUB_THEME=,&,p' $Grub_File)
 
-    if [ -z $i ]; then
-      echo "Agregando tema al grub"
-      echo "\nGRUB_THEME=$Theme_Dir/$theme/theme.txt" >>$Grub_File
-    else
-      echo "Reemplazando el tema actual por $theme"
-      sed "s,^#\?GRUB_THEME=.*,GRUB_THEME=$Theme_Dir/$theme/theme.txt," <$Grub_File >$Grub_File.~
-      mv $Grub_File.~ $Grub_File
+        if [ -z $i ]; then
+            echo "Agregando tema al grub"
+            echo "\nGRUB_THEME=$Theme_Dir/$theme/theme.txt" >>$Grub_File
+        else
+            echo "Reemplazando el tema actual por $theme"
+            sed "s,^#\?GRUB_THEME=.*,GRUB_THEME=$Theme_Dir/$theme/theme.txt," <$Grub_File >$Grub_File.~
+            mv $Grub_File.~ $Grub_File
+        fi
+        echo "Actualizando grub"
+        update-grub
     fi
-    echo "Actualizando grub"
-    update-grub
   fi
 fi
 
