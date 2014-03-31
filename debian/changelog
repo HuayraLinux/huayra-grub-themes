@@ -1,3 +1,9 @@
+huayra-grub-themes (1.10) unstable; urgency=medium
+
+  * Comprobar que no se esta en un chroot para ejecutar update-grub 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 31 Mar 2014 14:44:54 -0300
+
 huayra-grub-themes (1.9) unstable; urgency=low
 
   * Agrego dependencia en grub-pc

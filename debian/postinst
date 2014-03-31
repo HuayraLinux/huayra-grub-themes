@@ -38,7 +38,10 @@ if [ "$1" = "configure" ]; then
             mv $Grub_File.~ $Grub_File
         fi
         echo "Actualizando grub"
-        update-grub
+        if test -e /boot/grub/grub.cfg && [ "$(stat -c %d/%i /)" = "$(stat -Lc %d/%i /proc/1/root 2>/dev/null)" ] ; then
+          update-grub
+        fi
+  
     fi
   fi
 fi
