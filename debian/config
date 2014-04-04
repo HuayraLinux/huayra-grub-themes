@@ -14,7 +14,8 @@ db_get huayra-grub-themes/set_theme
 if [ "$RET" = "true" ]; then
   db_input medium huayra-grub-themes/theme || true
   db_go
+
+  db_input medium huayra-grub-themes/resolution || true
+  db_go
 fi
 
-db_input medium huayra-grub-themes/resolution || true
-db_go
