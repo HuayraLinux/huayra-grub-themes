@@ -38,14 +38,33 @@ terminal-font: "Sans Regular 12"
 		scrollbar_frame = "sb_frame_*.png"
 }
 
+# Carga logo de ANSES
++ image {
+	top = 5%
+	left = 100
+	width = 105
+	height = 29
+	file = "anses.png"
+}
+
 # Carga logo de Conectar Igualdad
 + image {
 	top = 5%
 	left = 50%-154
-	width = 307
-	height = 29
+	width = 273
+	height = 26
 	file = "conectar_igualdad.png"
 }
+
+# Carga logo de Presidencia
++ image {
+	top = 5%
+	left = 100%-300
+	width = 201
+	height = 31
+	file = "presidencia.png"
+}
+
 
 
 # Barra de progreso horizontal
