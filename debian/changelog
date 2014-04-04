@@ -1,3 +1,9 @@
+huayra-grub-themes (1.11) unstable; urgency=low
+
+  * agregando resolucion en los templates
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 04 Apr 2014 14:17:38 -0300
+
 huayra-grub-themes (1.10) unstable; urgency=medium
 
   * Comprobar que no se esta en un chroot para ejecutar update-grub 
