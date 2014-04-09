@@ -41,7 +41,7 @@ terminal-font: "Sans 14"
 # Carga logo de ANSES
 + image {
 	top = 5%
-	left = 100
+	left = 80
 	width = 105
 	height = 29
 	file = "anses.png"
@@ -59,7 +59,7 @@ terminal-font: "Sans 14"
 # Carga logo de Presidencia
 + image {
 	top = 5%
-	left = 100%-205
+	left = 100%-220
 	width = 201
 	height = 31
 	file = "presidencia.png"
@@ -86,7 +86,7 @@ terminal-font: "Sans 14"
 # Mensaje con instrucciones
 + hbox {
 		top = 100%-22
-		left = 30%
+		left = 26%
 		+ label {text = "Enter: " font = "Asap Regular 11" color = "black" align = "left"}
 		+ label {text = "Iniciar Sistema     " font = "Asap Regular 11" color = "#333333" align = "left"}
 		+ label {text = "E: " font = "Asap Regular 11" color = "black" align = "left"}
