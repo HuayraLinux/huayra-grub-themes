@@ -59,7 +59,7 @@ terminal-font: "Sans 14"
 # Carga logo de Presidencia
 + image {
 	top = 5%
-	left = 100%-250
+	left = 100%-205
 	width = 201
 	height = 31
 	file = "presidencia.png"
