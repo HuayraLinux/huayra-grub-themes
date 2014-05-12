@@ -12,7 +12,7 @@ message-bg-color: "#f6f6f6"
 desktop-image: "fondo.png"
 desktop-color: "#000000"
 terminal-box: "menu_bkg_*.png"
-terminal-font: "Sans 14"
+#terminal-font: "Sans 14"
 
 # Menu de arranque
 + boot_menu {
@@ -86,7 +86,7 @@ terminal-font: "Sans 14"
 # Mensaje con instrucciones
 + hbox {
 		top = 100%-22
-		left = 26%
+		left = 16%
 		+ label {text = "Enter: " font = "Asap Regular 11" color = "black" align = "left"}
 		+ label {text = "Iniciar Sistema     " font = "Asap Regular 11" color = "#333333" align = "left"}
 		+ label {text = "E: " font = "Asap Regular 11" color = "black" align = "left"}
