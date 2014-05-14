@@ -1,3 +1,9 @@
+huayra-grub-themes (1.14.3) unstable; urgency=medium
+
+  * eliminando fuentes con problemas de rendering 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 14 May 2014 11:30:18 -0300
+
 huayra-grub-themes (1.14.2) unstable; urgency=medium
 
   * corrección de fuentes para marble 
