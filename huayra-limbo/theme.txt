@@ -99,5 +99,5 @@ terminal-box: "menu_bkg_*.png"
 + hbox {
 		top = 16%
 		left = 40%
-		+ label {text = "Sistemas operativos disponibles:" font = "Asap Regular 11" color = "black" align = "center"}
+		+ label {text = "SISTEMAS OPERATIVOS DISPONIBLES" font = "Asap Regular 11" color = "black" align = "center"}
 }
