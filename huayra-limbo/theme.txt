@@ -33,7 +33,7 @@ terminal-box: "menu_bkg_*.png"
 		selected_item_pixmap_style= "select_bkg_*.png"
 		menu_pixmap_style = "menu_bkg_*.png"
 		scrollbar = true
-		scrollbar_width = 46 # El ancho debe ser el mismo que el borde E del menu
+		scrollbar_width = 46
 		scrollbar_thumb = "sb_thumb_*.png"
 		scrollbar_frame = "sb_fr_*.png"
 }
@@ -41,7 +41,7 @@ terminal-box: "menu_bkg_*.png"
 # Carga logo de ANSES
 + image {
 	top = 5%
-	left = 80
+	left = 100
 	width = 105
 	height = 29
 	file = "anses.png"
@@ -59,7 +59,7 @@ terminal-box: "menu_bkg_*.png"
 # Carga logo de Presidencia
 + image {
 	top = 5%
-	left = 100%-220
+	left = 100%-250
 	width = 201
 	height = 31
 	file = "presidencia.png"
@@ -86,11 +86,18 @@ terminal-box: "menu_bkg_*.png"
 # Mensaje con instrucciones
 + hbox {
 		top = 100%-22
-		left = 16%
+		left = 30%
 		+ label {text = "Enter: " font = "Asap Regular 11" color = "black" align = "left"}
 		+ label {text = "Iniciar Sistema     " font = "Asap Regular 11" color = "#333333" align = "left"}
 		+ label {text = "E: " font = "Asap Regular 11" color = "black" align = "left"}
 		+ label {text = "Editar Seleccion     " font = "Asap Regular 11" color = "#333333" align = "left"}
 		+ label {text = "C: " font = "Asap Regular 11" color = "black" align = "left"}
 		+ label {text = "Linea de comando GRUB" font = "Asap Regular 11" color = "#333333" align = "left"}
+}
+
+# Instruccion arriba
++ hbox {
+		top = 16%
+		left = 40%
+		+ label {text = "Sistemas operativos disponibles:" font = "Asap Regular 11" color = "black" align = "center"}
 }
