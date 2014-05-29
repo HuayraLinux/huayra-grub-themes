@@ -1,3 +1,9 @@
+huayra-grub-themes (1.14.4) unstable; urgency=low
+
+  * titulo nuevo
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 29 May 2014 13:00:39 -0300
+
 huayra-grub-themes (1.14.3) unstable; urgency=medium
 
   * eliminando fuentes con problemas de rendering 
