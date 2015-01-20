@@ -30,12 +30,12 @@ terminal-box: "menu_bkg_*.png"
 		icon_width = 24
 		icon_height = 24
 		item_icon_space = 20
-		selected_item_pixmap_style= "select_bkg_*.png"
-		menu_pixmap_style = "menu_bkg_*.png"
+		selected_item_pixmap_style= "select/select_bkg_*.png"
+		menu_pixmap_style = "menu/menu_bkg_*.png"
 		scrollbar = true
 		scrollbar_width = 46
-		scrollbar_thumb = "sb_thumb_*.png"
-		scrollbar_frame = "sb_fr_*.png"
+		scrollbar_thumb = "scrollbar/sb_slid_*.png"
+		scrollbar_frame = "scrollbar/sb_fr_*.png"
 }
 
 # Carga logo de ANSES
