@@ -39,13 +39,13 @@ terminal-box: "menu_bkg_*.png"
 }
 
 # Carga logo de ANSES
-+ image {
-	top = 5%
-	left = 100
-	width = 105
-	height = 29
-	file = "anses.png"
-}
+#+ image {
+#	top = 5%
+#	left = 100
+#	width = 105
+#	height = 29
+#	file = "anses.png"
+#}
 
 # Carga logo de Conectar Igualdad
 + image {
