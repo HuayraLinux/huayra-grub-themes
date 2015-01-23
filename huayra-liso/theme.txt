@@ -39,13 +39,13 @@ terminal-box: "menu_bkg_*.png"
 }
 
 # Carga logo de ANSES
-#+ image {
-#	top = 5%
-#	left = 100
-#	width = 105
-#	height = 29
-#	file = "anses.png"
-#}
++ image {
+	top = 5%
+	left = 100
+	width = 105
+	height = 29
+	file = "logos/anses.png"
+}
 
 # Carga logo de Conectar Igualdad
 + image {
@@ -53,7 +53,7 @@ terminal-box: "menu_bkg_*.png"
 	left = 50%-154
 	width = 273
 	height = 26
-	file = "conectar_igualdad.png"
+	file = "logos/conectar_igualdad.png"
 }
 
 # Carga logo de Presidencia
@@ -62,7 +62,7 @@ terminal-box: "menu_bkg_*.png"
 	left = 100%-250
 	width = 201
 	height = 31
-	file = "presidencia.png"
+	file = "logos/presidencia.png"
 }
 
 
@@ -78,8 +78,8 @@ terminal-box: "menu_bkg_*.png"
 		text_color = "255, 255, 255"
 		text = "Conectar Igualdad"
 		show_text = false # Esta linea parece que es ignorada en esta version de GRUB.
-		bar_style = "progress_bar_*.png"
-		highlight_style = "progress_highlight_*.png"
+		bar_style = "progress/progress_bar_*.png"
+		highlight_style = "progress/progress_highlight_*.png"
 }
 
 
