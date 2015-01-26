@@ -9,9 +9,9 @@ title-color: "#000000"
 message-font: "Asap Regular 11"
 message-color: "#FFFFFF"
 message-bg-color: "#f6f6f6"
-desktop-image: "fondo.png"
+desktop-image: "menu/menu_bkg.png"
 desktop-color: "#000000"
-terminal-box: "menu_bkg_*.png"
+terminal-box: "menu/menu_bkg_*.png"
 #terminal-font: "Sans 14"
 
 # Menu de arranque
@@ -53,7 +53,7 @@ terminal-box: "menu_bkg_*.png"
 	left = 50%-154
 	width = 273
 	height = 26
-	file = "logos/conectar_igualdad.png"
+	file = "logos/conectar.png"
 }
 
 # Carga logo de Presidencia
