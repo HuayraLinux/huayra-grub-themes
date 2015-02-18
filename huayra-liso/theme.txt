@@ -41,9 +41,9 @@ terminal-box: "menu/menu_bkg_*.png"
 # Carga logo de ANSES
 + image {
 	top = 5%
-	left = 100
-	width = 105
-	height = 29
+	left = 20
+	width = 137
+	height = 30
 	file = "logos/anses.png"
 }
 
@@ -51,17 +51,17 @@ terminal-box: "menu/menu_bkg_*.png"
 + image {
 	top = 5%
 	left = 50%-154
-	width = 273
-	height = 26
+	width = 294
+	height = 28
 	file = "logos/conectar.png"
 }
 
 # Carga logo de Presidencia
 + image {
 	top = 5%
-	left = 100%-250
-	width = 201
-	height = 31
+	left = 100%-290
+	width = 287
+	height = 44
 	file = "logos/presidencia.png"
 }
 
@@ -86,7 +86,7 @@ terminal-box: "menu/menu_bkg_*.png"
 # Mensaje con instrucciones
 + hbox {
 		top = 100%-22
-		left = 30%
+		left = 10%
 		+ label {text = "Enter: " font = "Asap Regular 11" color = "black" align = "left"}
 		+ label {text = "Iniciar Sistema     " font = "Asap Regular 11" color = "#333333" align = "left"}
 		+ label {text = "E: " font = "Asap Regular 11" color = "black" align = "left"}
@@ -98,6 +98,6 @@ terminal-box: "menu/menu_bkg_*.png"
 # Instruccion arriba
 + hbox {
 		top = 16%
-		left = 40%
+		left = 30%
 		+ label {text = "SISTEMAS OPERATIVOS DISPONIBLES" font = "Asap Regular 11" color = "black" align = "center"}
 }
