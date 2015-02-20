@@ -38,7 +38,6 @@ terminal-box: "terminal/terminal_*.png"
 		scrollbar_frame = "scrollbar/sb_fr_*.png"
 }
 
-
 #Carga logos 1024x600
 
 +image {
