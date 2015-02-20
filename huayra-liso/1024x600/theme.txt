@@ -9,9 +9,9 @@ title-color: "#000000"
 message-font: "Asap Regular 11"
 message-color: "#FFFFFF"
 message-bg-color: "#f6f6f6"
-desktop-image: "menu/menu_bkg.png"
+desktop-image: "../menu/menu_bkg.png"
 desktop-color: "#000000"
-terminal-box: "terminal/terminal_*.png"
+terminal-box: "../terminal/terminal_*.png"
 #terminal-font: "Sans 14"
 
 # Menu de arranque
@@ -30,12 +30,12 @@ terminal-box: "terminal/terminal_*.png"
 		icon_width = 24
 		icon_height = 24
 		item_icon_space = 20
-		selected_item_pixmap_style= "select/select_bkg_*.png"
-		menu_pixmap_style = "menu/menu_bkg_*.png"
+		selected_item_pixmap_style= "../select/select_bkg_*.png"
+		menu_pixmap_style = "../menu/menu_bkg_*.png"
 		scrollbar = true
 		scrollbar_width = 46
-		scrollbar_thumb = "scrollbar/sb_slid_*.png"
-		scrollbar_frame = "scrollbar/sb_fr_*.png"
+		scrollbar_thumb = "../scrollbar/sb_slid_*.png"
+		scrollbar_frame = "../scrollbar/sb_fr_*.png"
 }
 
 #Carga logos 1024x600
@@ -45,7 +45,7 @@ terminal-box: "terminal/terminal_*.png"
 	left = 0
 	width = 1024
 	height = 54
-	file = "logos/logos-1024x600.png"
+	file = "../logos/logos-1024x600.png"
 }
 
 #Mensaje de opciones
@@ -55,7 +55,7 @@ terminal-box: "terminal/terminal_*.png"
 	left = 50%-117
 	width = 235
 	height = 38
-	file = "textos/opciones.png"
+	file = "../textos/opciones.png"
 }
 
 #Mensaje de instrucciones
@@ -65,7 +65,7 @@ terminal-box: "terminal/terminal_*.png"
 	left = 50%-360
 	width = 720
 	height = 36
-	file = "textos/instrucciones.png"
+	file = "../textos/instrucciones.png"
 }
 
 
@@ -80,8 +80,8 @@ terminal-box: "terminal/terminal_*.png"
 		text_color = "255, 255, 255"
 		text = "Conectar Igualdad"
 		show_text = false # Esta linea parece que es ignorada en esta version de GRUB.
-		bar_style = "progress/progress_bar_*.png"
-		highlight_style = "progress/progress_highlight_*.png"
+		bar_style = "../progress/progress_bar_*.png"
+		highlight_style = "../progress/progress_highlight_*.png"
 }
 
 
