@@ -11,7 +11,7 @@ message-color: "#FFFFFF"
 message-bg-color: "#f6f6f6"
 desktop-image: "menu/menu_bkg.png"
 desktop-color: "#000000"
-terminal-box: "menu/menu_bkg_*.png"
+terminal-box: "terminal/terminal_*.png"
 #terminal-font: "Sans 14"
 
 # Menu de arranque
@@ -48,32 +48,25 @@ terminal-box: "menu/menu_bkg_*.png"
 	file = "logos/logos-1366x768.png"
 }
 
-# Carga logo de ANSES
-#+ image {
-#	top = 5%
-#	left = 20
-#	width = 137
-#	height = 30
-#	file = "logos/anses.png"
-#}
+#Mensaje de opciones
 
-# Carga logo de Conectar Igualdad
-#+ image {
-#	top = 5%
-#	left = 50%-154
-#	width = 294
-#	height = 28
-#	file = "logos/conectar.png"
-#}
++image {
+	top = 60
+	left = 50% - 117
+	width = 235
+	height = 38
+	file = "textos/opciones.png"
+}
 
-# Carga logo de Presidencia
-#+ image {
-#	top = 5%
-#	left = 100%-290
-#	width = 287
-#	height = 44
-#	file = "logos/presidencia.png"
-#}
+#Mensaje de instrucciones
+
++image {
+	top = 100% - 40
+	left = 50% - 360
+	width = 720
+	height = 36
+	file = "textos/instrucciones.png"
+}
 
 
 
@@ -93,21 +86,4 @@ terminal-box: "menu/menu_bkg_*.png"
 }
 
 
-# Mensaje con instrucciones
-+ hbox {
-		top = 100%-22
-		left = 10%
-		+ label {text = "Enter: " font = "Asap Regular 11" color = "black" align = "left"}
-		+ label {text = "Iniciar Sistema     " font = "Asap Regular 11" color = "#333333" align = "left"}
-		+ label {text = "E: " font = "Asap Regular 11" color = "black" align = "left"}
-		+ label {text = "Editar Seleccion     " font = "Asap Regular 11" color = "#333333" align = "left"}
-		+ label {text = "C: " font = "Asap Regular 11" color = "black" align = "left"}
-		+ label {text = "Linea de comando GRUB" font = "Asap Regular 11" color = "#333333" align = "left"}
-}
 
-# Instruccion arriba
-+ hbox {
-		top = 16%
-		left = 30%
-		+ label {text = "SISTEMAS OPERATIVOS DISPONIBLES" font = "Asap Regular 11" color = "black" align = "center"}
-}
