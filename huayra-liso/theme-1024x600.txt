@@ -52,7 +52,7 @@ terminal-box: "terminal/terminal_*.png"
 #Mensaje de opciones
 
 +image {
-	top = 15%
+	top = 13%
 	left = 50%-117
 	width = 235
 	height = 38
@@ -74,9 +74,9 @@ terminal-box: "terminal/terminal_*.png"
 + progress_bar {
 		id = "__timeout__"
 		left = 25%
+		top = 100%-100
 		width = 50%
-		top = 90%
-		height = 8 # Esta linea parece que es ignorada en esta version de GRUB.
+		height = 1% # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 11"
 		text_color = "255, 255, 255"
 		text = "Conectar Igualdad"
