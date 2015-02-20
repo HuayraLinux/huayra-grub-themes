@@ -12,3 +12,15 @@ Depends: ${misc:Depends}, debianutils (>= 4.3.2), grub-pc
 Description: Temas para grub de Huayra
  Colección de temas para grub de Huayra GNU/Linux
 
+Package: huayra-grub-themes-limbo
+Architecture: all
+Depends: ${misc:Depends}, debianutils (>= 4.3.2), grub-pc
+Description: Temas para grub de Huayra
+ Colección de temas para grub de Huayra GNU/Linux
+
+Package: huayra-grub-themes-liso
+Architecture: all
+Depends: ${misc:Depends}, debianutils (>= 4.3.2), grub-pc
+Description: Temas para grub de Huayra
+ Colección de temas para grub de Huayra GNU/Linux
+
