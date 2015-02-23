@@ -1,3 +1,9 @@
+huayra-grub-themes (1.15.2) UNRELEASED; urgency=medium
+
+  * Arreglando templates de debconf 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 23 Feb 2015 16:42:38 -0300
+
 huayra-grub-themes (1.15.1) unstable; urgency=medium
 
   * bump version
