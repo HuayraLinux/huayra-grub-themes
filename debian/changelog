@@ -4,6 +4,12 @@ huayra-grub-themes (1.15) unstable; urgency=low
 
  -- Mauro <mauro@krutt.org>  Tue, 27 Jan 2015 14:18:45 -0300
 
+huayra-grub-themes (1.14.5) unstable; urgency=medium
+
+  * Reoganizando el paquete para soportar varias resoluciones en el tema
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 23 Feb 2015 15:50:10 -0300
+
 huayra-grub-themes (1.14.4) unstable; urgency=low
 
   * titulo nuevo
