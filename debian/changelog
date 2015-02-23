@@ -1,3 +1,9 @@
+huayra-grub-themes (1.15.1) unstable; urgency=medium
+
+  * bump version
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 23 Feb 2015 16:06:41 -0300
+
 huayra-grub-themes (1.15) unstable; urgency=low
 
   * Nuevo release
