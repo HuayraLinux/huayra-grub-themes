@@ -8,20 +8,20 @@ Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-grub-themes
 Architecture: all
-Depends: ${misc:Depends}, debianutils (>= 4.3.2), grub-pc | grub-efi
+Depends: ${misc:Depends}, debianutils (>= 4.3.2)
 Description: Temas para grub de Huayra
  Colección de temas para grub de Huayra GNU/Linux
 
 Package: huayra-grub-themes-limbo
 Architecture: all
-Depends: ${misc:Depends}, debianutils (>= 4.3.2), grub-pc | grub-efi,
+Depends: ${misc:Depends}, debianutils (>= 4.3.2),
     huayra-grub-themes
 Description: Temas para grub de Huayra
  Colección de temas para grub de Huayra GNU/Linux
 
 Package: huayra-grub-themes-liso
 Architecture: all
-Depends: ${misc:Depends}, debianutils (>= 4.3.2), grub-pc | grub-efi,
+Depends: ${misc:Depends}, debianutils (>= 4.3.2),
     huayra-grub-themes
 Description: Temas para grub de Huayra
  Colección de temas para grub de Huayra GNU/Linux

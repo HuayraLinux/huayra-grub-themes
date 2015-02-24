@@ -1,3 +1,9 @@
+huayra-grub-themes (1.15.3) unstable; urgency=medium
+
+  * quitando dependencias de grub para probar installer en uefi 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 24 Feb 2015 15:03:54 -0300
+
 huayra-grub-themes (1.15.2) unstable; urgency=medium
 
   * Arreglando templates de debconf 
