@@ -16,13 +16,14 @@ Package: huayra-grub-themes-limbo
 Architecture: all
 Depends: ${misc:Depends}, debianutils (>= 4.3.2),
     huayra-grub-themes
-Description: Temas para grub de Huayra
- Colección de temas para grub de Huayra GNU/Linux
+Description: Temas Limbo para grub de Huayra
+ En este paquete se encuentra la version Limbo de
+ los temas desarrollados en Huayra para GRUB.
 
 Package: huayra-grub-themes-liso
 Architecture: all
 Depends: ${misc:Depends}, debianutils (>= 4.3.2),
     huayra-grub-themes
-Description: Temas para grub de Huayra
- Colección de temas para grub de Huayra GNU/Linux
-
+Description: Tema Liso para grub de Huayra
+ En este paquete se encuentra la version Limbo de
+ los temas desarrollados en Huayra para GRUB.
