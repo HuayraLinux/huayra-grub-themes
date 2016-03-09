@@ -1,3 +1,9 @@
+huayra-grub-themes (1.15.5) unstable; urgency=medium
+
+  * Actualizacion de iconos
+
+ -- Mauro <mauro@sdf.org>  Wed, 09 Mar 2016 15:17:49 -0300
+
 huayra-grub-themes (1.15.4) unstable; urgency=medium
 
   * Corrigiendo errores en la instalacion de temas.
