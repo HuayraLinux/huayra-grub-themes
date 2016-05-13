@@ -86,7 +86,7 @@ terminal-box: "../terminal/terminal_*.png"
 
 # Logos al pie de pagina
 +image {
-	top = 10
+	top = 100% - 72
 	left = 0
 	width = 1024
 	height = 72
