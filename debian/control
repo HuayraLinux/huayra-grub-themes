@@ -20,10 +20,18 @@ Description: Temas Limbo para grub de Huayra
  En este paquete se encuentra la version Limbo de
  los temas desarrollados en Huayra para GRUB.
 
+Package: huayra-grub-themes-liso-3.0
+Architecture: all
+Depends: ${misc:Depends}, debianutils (>= 4.3.2),
+    huayra-grub-themes
+Description: Tema Liso 3.0 para grub de Huayra
+ En este paquete se encuentra la version Liso 3.0 de
+ los temas desarrollados en Huayra para GRUB.
+
 Package: huayra-grub-themes-liso
 Architecture: all
 Depends: ${misc:Depends}, debianutils (>= 4.3.2),
     huayra-grub-themes
 Description: Tema Liso para grub de Huayra
- En este paquete se encuentra la version Limbo de
+ En este paquete se encuentra la version Liso de
  los temas desarrollados en Huayra para GRUB.

@@ -1,3 +1,9 @@
+huayra-grub-themes (1.15.6) unstable; urgency=medium
+
+  * actualización tema para imagen 2016
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 16 May 2016 14:08:03 -0300
+
 huayra-grub-themes (1.15.5) unstable; urgency=medium
 
   * Actualizacion de iconos
