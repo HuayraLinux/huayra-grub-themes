@@ -51,7 +51,7 @@ terminal-box: "../terminal/terminal_*.png"
 #Mensaje de opciones
 
 +image {
-	top = 13%
+	top = 14%
 	left = 50%-117
 	width = 235
 	height = 27
@@ -61,7 +61,7 @@ terminal-box: "../terminal/terminal_*.png"
 #Mensaje de instrucciones
 
 +image {
-	top = 100%-72
+	top = 100%-144
 	left = 50%-360
 	width = 720
 	height = 36
