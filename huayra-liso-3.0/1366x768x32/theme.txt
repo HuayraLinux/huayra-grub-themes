@@ -44,34 +44,24 @@ terminal-box: "../terminal/terminal_*.png"
 	top = 10
 	left = 0
 	width = 1366
-	height = 66
-	file = "../logos/header-1366x768.png"
+	height = 54
+	file = "../logos/logos-1366x768.png"
 }
 
 #Mensaje de opciones
 
-#+image {
-#	top = 13%
-#	left = 50%-117
-#	width = 235
-#	height = 38
-#	file = "../textos/opciones.png"
-#}
-
-#Mensaje de opciones
-
 +image {
-	top = 20%-26
+	top = 13%
 	left = 50%-117
 	width = 235
-	height = 27
+	height = 38
 	file = "../textos/opciones.png"
 }
 
 #Mensaje de instrucciones
 
 +image {
-	top = 100%-144
+	top = 100%-50
 	left = 50%-360
 	width = 720
 	height = 36
@@ -93,15 +83,6 @@ terminal-box: "../terminal/terminal_*.png"
 		show_text = false # Esta linea parece que es ignorada en esta version de GRUB.
 		bar_style = "../progress/progress_bar_*.png"
 		highlight_style = "../progress/progress_highlight_*.png"
-}
-
-# Logos al pie de pagina
-+image {
-	top = 100%-72
-	left = 0
-	width = 1366
-	height = 72
-	file = "../logos/bottom-1366x768.png"
 }
 
 
