@@ -4,9 +4,9 @@
 
 # Global Property
 title-text: ""
-title-font: "Commodore 64 Pixelized 11"
+title-font: "Play-Regular 12"
 title-color: "#000000"
-message-font: "Commodore 64 Pixelized 11"
+message-font: "Play-Regular 12"
 message-color: "#FFFFFF"
 message-bg-color: "#f6f6f6"
 desktop-image: "../menu/menu_bkg.png"
@@ -20,8 +20,8 @@ terminal-box: "../terminal/terminal_*.png"
 		width = 70%
 		top = 20%
 		height = 40%
-		item_font = "Commodore 64 Pixelized 11"
-		selected_item_font = "Commodore 64 Pixelized 11"
+		item_font = "Play-Regular 12"
+		selected_item_font = "Play-Regular 12"
 		item_color = "#ffffff"
 		selected_item_color = "#005544"
 		item_height = 25
@@ -75,7 +75,7 @@ terminal-box: "../terminal/terminal_*.png"
 		id = "__timeout__"
 		left = 30%
 		width = 40%
-		top = 100%-100
+		top = 100%-200
 		height = 1% # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 11"
 		text_color = "255, 255, 255"
