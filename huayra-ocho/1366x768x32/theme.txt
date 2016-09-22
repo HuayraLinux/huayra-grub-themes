@@ -22,7 +22,7 @@ terminal-box: "../terminal/terminal_*.png"
 		height = 40%
 		item_font = "Commodore 64 Pixelized 11"
 		selected_item_font = "Commodore 64 Pixelized 11"
-		item_color = "#000000"
+		item_color = "#ffffff"
 		selected_item_color = "#005544"
 		item_height = 25
 		item_padding = 15
@@ -51,8 +51,8 @@ terminal-box: "../terminal/terminal_*.png"
 #Mensaje de opciones
 
 +image {
-	top = 13%
-	left = 50%-258
+	top = 15%
+	left = 50%-238
 	width = 506
 	height = 28
 	file = "../textos/opciones.png"
@@ -61,8 +61,8 @@ terminal-box: "../terminal/terminal_*.png"
 #Mensaje de instrucciones
 
 +image {
-	top = 100%-70
-	left = 50%-360
+	top = 100%-100
+	left = 50%-320
 	width = 838
 	height = 59
 	file = "../textos/instrucciones.png"
