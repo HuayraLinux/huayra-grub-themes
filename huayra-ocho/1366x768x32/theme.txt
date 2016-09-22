@@ -4,9 +4,9 @@
 
 # Global Property
 title-text: ""
-title-font: "Asap Regular 11"
+title-font: "Commodore 64 Pixelized 11"
 title-color: "#000000"
-message-font: "Asap Regular 11"
+message-font: "Commodore 64 Pixelized 11"
 message-color: "#FFFFFF"
 message-bg-color: "#f6f6f6"
 desktop-image: "../menu/menu_bkg.png"
@@ -20,10 +20,10 @@ terminal-box: "../terminal/terminal_*.png"
 		width = 70%
 		top = 20%
 		height = 40%
-		item_font = "Asap Regular 11"
-		selected_item_font = "Asap Regular 11"
+		item_font = "Commodore 64 Pixelized 11"
+		selected_item_font = "Commodore 64 Pixelized 11"
 		item_color = "#000000"
-		selected_item_color = "#FFFFFF"
+		selected_item_color = "#005544"
 		item_height = 25
 		item_padding = 15
 		item_spacing = 5
@@ -52,19 +52,19 @@ terminal-box: "../terminal/terminal_*.png"
 
 +image {
 	top = 13%
-	left = 50%-117
-	width = 235
-	height = 38
+	left = 50%-258
+	width = 506
+	height = 28
 	file = "../textos/opciones.png"
 }
 
 #Mensaje de instrucciones
 
 +image {
-	top = 100%-50
+	top = 100%-70
 	left = 50%-360
-	width = 720
-	height = 36
+	width = 838
+	height = 59
 	file = "../textos/instrucciones.png"
 }
 
