@@ -24,14 +24,15 @@ terminal-font: "unicode 11"
 		selected_item_font = "Play Bold 22"
 		item_color = "#ffffff"
 		selected_item_color = "#005544"
-		item_height = 25
+		item_height = 26
 		item_padding = 15
-		item_spacing = 10
+		item_spacing = 14
 		icon_width = 24
 		icon_height = 24
 		item_icon_space = 20
 		selected_item_pixmap_style= "../select/select_bkg_*.png"
 		menu_pixmap_style = "../menu/menu_bkg_*.png"
+		
 		scrollbar = true
 		scrollbar_width = 46
 		scrollbar_thumb = "../scrollbar/sb_slid_*.png"
