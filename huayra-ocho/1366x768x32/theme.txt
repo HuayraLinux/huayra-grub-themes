@@ -34,7 +34,7 @@ terminal-font: "unicode 11"
 		menu_pixmap_style = "../menu/menu_bkg_*.png"
 		
 		scrollbar = true
-		scrollbar_width = 12
+		scrollbar_width = 18
 		scrollbar_thumb = "../scrollbar/sb_slid_*.png"
 		scrollbar_frame = "../scrollbar/sb_fr_*.png"
 }
