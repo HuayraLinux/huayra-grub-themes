@@ -76,7 +76,7 @@ terminal-font: "unicode 11"
 		id = "__timeout__"
 		left = 30%
 		width = 40%
-		top = 100%-200
+		top = 100%-150
 		height = 1% # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 12"
 		text_color = "255, 255, 255"
