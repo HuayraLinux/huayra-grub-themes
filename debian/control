@@ -35,3 +35,11 @@ Depends: ${misc:Depends}, debianutils (>= 4.3.2),
 Description: Tema Liso para grub de Huayra
  En este paquete se encuentra la version Liso de
  los temas desarrollados en Huayra para GRUB.
+
+Package: huayra-grub-themes-ocho
+Architecture: all
+Depends: ${misc:Depends}, debianutils (>= 4.3.2),
+    huayra-grub-themes
+Description: Tema Ocho para grub de Huayra
+ En este paquete se encuentra la version Ocho de
+ los temas desarrollados en Huayra para GRUB.

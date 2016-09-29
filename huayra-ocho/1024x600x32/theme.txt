@@ -1,18 +1,18 @@
-# Tema Liso para GRUB2.
+# Tema Ocho para GRUB2.
 # Pensado para 1024x600
-# Creado por Claudio "malefico" Andaur
+# Creado por Iván Hoffmann
 
 # Global Property
 title-text: ""
-title-font: "Asap Regular 11"
+title-font: "Play Regular 22"
 title-color: "#000000"
-message-font: "Asap Regular 11"
+message-font: "Play Regular 22"
 message-color: "#FFFFFF"
 message-bg-color: "#f6f6f6"
 desktop-image: "../menu/menu_bkg.png"
 desktop-color: "#000000"
 terminal-box: "../terminal/terminal_*.png"
-#terminal-font: "Sans 14"
+terminal-font: "unicode 11"
 
 # Menu de arranque
 + boot_menu {
@@ -20,20 +20,21 @@ terminal-box: "../terminal/terminal_*.png"
 		width = 70%
 		top = 20%
 		height = 40%
-		item_font = "Asap Regular 11"
-		selected_item_font = "Asap Regular 11"
-		item_color = "#000000"
-		selected_item_color = "#FFFFFF"
-		item_height = 25
+		item_font = "Play Regular 22"
+		selected_item_font = "Play Bold 22"
+		item_color = "#ffffff"
+		selected_item_color = "#005544"
+		item_height = 26
 		item_padding = 15
-		item_spacing = 5
+		item_spacing = 14
 		icon_width = 24
 		icon_height = 24
 		item_icon_space = 20
 		selected_item_pixmap_style= "../select/select_bkg_*.png"
 		menu_pixmap_style = "../menu/menu_bkg_*.png"
+		
 		scrollbar = true
-		scrollbar_width = 46
+		scrollbar_width = 18
 		scrollbar_thumb = "../scrollbar/sb_slid_*.png"
 		scrollbar_frame = "../scrollbar/sb_fr_*.png"
 }
@@ -51,38 +52,38 @@ terminal-box: "../terminal/terminal_*.png"
 #Mensaje de opciones
 
 +image {
-	top = 13%
-	left = 50%-117
-	width = 235
-	height = 38
+	top = 15%
+	left = 50%-238
+	width = 506
+	height = 28
 	file = "../textos/opciones.png"
 }
 
 #Mensaje de instrucciones
 
 +image {
-	top = 100%-50
-	left = 50%-360
-	width = 720
-	height = 36
+	top = 100%-100
+	left = 50%-420
+	width = 838
+	height = 59
 	file = "../textos/instrucciones.png"
 }
+
 
 
 # Barra de progreso horizontal
 + progress_bar {
 		id = "__timeout__"
 		left = 30%
-		top = 100%-100
 		width = 40%
+		top = 100%-200
 		height = 1% # Esta linea parece que es ignorada en esta version de GRUB.
-		font = "Asap Regular 11"
+		font = "Asap Regular 12"
 		text_color = "255, 255, 255"
 		text = "Conectar Igualdad"
 		show_text = false # Esta linea parece que es ignorada en esta version de GRUB.
 		bar_style = "../progress/progress_bar_*.png"
 		highlight_style = "../progress/progress_highlight_*.png"
 }
-
 
 

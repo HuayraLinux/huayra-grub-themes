@@ -53,6 +53,18 @@ if [ "$1" = "configure" ]; then
             mv $Grub_File.~ $Grub_File
         fi
 
+        echo "Comprobando background"
+        i=$(sed -n 's,^#\?GRUB_BACKGROUND=,&,p' $Grub_File)
+
+        if [ -z $i ]; then
+            echo "Agregando background"
+            echo "\nGRUB_BACKGROUND=$Theme_Dir/$theme/huayra-grub.png" >>$Grub_File
+        else
+            echo "Reemplazando la resolucion actual por $resolution"
+            sed "s,^#\?GRUB_BACKGROUND=.*,GRUB_BACKGROUND=$Theme_Dir/$theme/huayra-grub.png," <$Grub_File >$Grub_File.~
+            mv $Grub_File.~ $Grub_File
+        fi
+
          echo "Actualizando grub"
         if test -e /boot/grub/grub.cfg && [ "$(stat -c %d/%i /)" = "$(stat -Lc %d/%i /proc/1/root 2>/dev/null)" ] ; then
             update-grub

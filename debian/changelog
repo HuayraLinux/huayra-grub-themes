@@ -1,3 +1,10 @@
+huayra-grub-themes (1.15.6+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Agregando tema Huayra Ocho.
+
+ -- Iván Hoffmann <digital.h@gmail.com>  Thu, 29 Sep 2016 11:23:22 -0300
+
 huayra-grub-themes (1.15.6) unstable; urgency=medium
 
   * actualización tema para imagen 2016
