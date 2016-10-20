@@ -60,7 +60,7 @@ if [ "$1" = "configure" ]; then
             echo "Agregando background"
             echo "\nGRUB_BACKGROUND=$Theme_Dir/$theme/huayra-grub.png" >>$Grub_File
         else
-            echo "Reemplazando la resolucion actual por $resolution"
+            echo "Reemplazando background"
             sed "s,^#\?GRUB_BACKGROUND=.*,GRUB_BACKGROUND=$Theme_Dir/$theme/huayra-grub.png," <$Grub_File >$Grub_File.~
             mv $Grub_File.~ $Grub_File
         fi

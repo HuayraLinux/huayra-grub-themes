@@ -1,3 +1,9 @@
+huayra-grub-themes (1.15.8) unstable; urgency=medium
+
+  * Forzando versión.
+
+ -- Iván Hoffmann <digital.h@gmail.com>  Thu, 20 Oct 2016 15:06:24 -0300
+
 huayra-grub-themes (1.15.6+nmu2) unstable; urgency=medium
 
   * Ajustes en theme.txt de 1024x600
