@@ -1,3 +1,10 @@
+huayra-grub-themes (1.15.9) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Incluyo tema Huayra Liso 3.3 para imagen 
+
+ -- malefico <malefico3d@gmail.com>  Fri, 03 Feb 2017 15:25:09 -0300
+
 huayra-grub-themes (1.15.8) unstable; urgency=medium
 
   * Forzando versión.
