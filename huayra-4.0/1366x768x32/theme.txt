@@ -1,6 +1,6 @@
-# Tema Liso para GRUB2.
+# Tema Huayra 4.0 para GRUB2.
 # Pensado para 1366x768
-# Creado por Claudio "malefico" Andaur
+# Creado por Carolina Hortal
 
 # Global Property
 title-text: ""
@@ -40,21 +40,13 @@ terminal-box: "../terminal/terminal_*.png"
 
 #Carga logos 1366x768
 
-+image {
-	top = 10
-	left = 0
-	width = 1366
-	height = 54
-	file = "../logos/logos-1366x768.png"
-}
-
 #Mensaje de opciones
 
 +image {
 	top = 13%
-	left = 50%-117
-	width = 235
-	height = 38
+	left = 50%-93
+	width = 186
+	height = 44
 	file = "../textos/opciones.png"
 }
 
@@ -63,8 +55,8 @@ terminal-box: "../terminal/terminal_*.png"
 +image {
 	top = 100%-50
 	left = 50%-360
-	width = 720
-	height = 36
+	width = 721
+	height = 32
 	file = "../textos/instrucciones.png"
 }
 
