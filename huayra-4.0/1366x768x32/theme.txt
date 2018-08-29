@@ -68,7 +68,7 @@ terminal-box: "../terminal/terminal_*.png"
 		left = 30%
 		width = 40%
 		top = 100%-100
-		height = 1% # Esta linea parece que es ignorada en esta version de GRUB.
+		height = 8 # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 11"
 		text_color = "255, 255, 255"
 		text = "Conectar Igualdad"
