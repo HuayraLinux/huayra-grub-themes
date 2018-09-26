@@ -1,6 +1,7 @@
 # Tema Huayra 4.0 para GRUB2.
 # Pensado para 1366x768
-# Creado por Carolina Hortal
+# Diseñado por Carolina Hortal
+# Codificacion por Claudio Andaur
 
 # Global Property
 title-text: ""
@@ -71,7 +72,7 @@ terminal-box: "../terminal/terminal_*.png"
 		height = 8 # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 11"
 		text_color = "255, 255, 255"
-		text = "Conectar Igualdad"
+		text = "Cargando..."
 		show_text = false # Esta linea parece que es ignorada en esta version de GRUB.
 		bar_style = "../progress/progress_bar_*.png"
 		highlight_style = "../progress/progress_highlight_*.png"
