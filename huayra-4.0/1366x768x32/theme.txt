@@ -41,6 +41,23 @@ terminal-box: "../terminal/terminal_*.png"
 
 #Carga logos 1366x768
 
++image {
+	top = 60%
+	left = 50%-200
+	width = 171
+	height = 46
+	file = "../logos/logo_educar.png"
+
+}
+
++image {
+	top = 60%
+	left = 50%+40
+	width = 159
+	height = 72
+	file = "../logos/logo_huayra.png"
+}
+
 #Mensaje de opciones
 
 +image {
