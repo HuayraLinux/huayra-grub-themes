@@ -1,3 +1,16 @@
+huayra-grub-themes (1.15.11) unstable; urgency=medium
+
+  * Modificado templates para incluir Huayra-4.0
+  * 
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Tue, 02 Oct 2018 10:11:13 -0300
+
+huayra-grub-themes (1.15.10) unstable; urgency=medium
+
+  * Tema Huayra 4.0.
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Mon, 01 Oct 2018 15:39:08 -0300
+
 huayra-grub-themes (1.15.9) unstable; urgency=medium
 
   * Non-maintainer upload.
