@@ -1,3 +1,19 @@
+huayra-grub-themes (1.15.12b) unstable; urgency=medium
+
+  * Todos los temas tienen un archivo huayra-grub.png
+  * tema.install NO COPIA este archivo a /boot/grub.
+  * tema.postinstall SET BACKGROUND a huayra-grub.png
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Mon, 01 Apr 2019 11:50:14 -0300
+
+huayra-grub-themes (1.15.12) unstable; urgency=medium
+
+  * install sobrescribe huayra-grub.png para forzar a cargar el modulo png. 
+  * Nueva version de huayra-grub.png para tema huayra 4.0
+  * Renombrado huayra-limbo/terminal-background.png a huayra-grub.png.
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Tue, 12 Mar 2019 15:32:06 -0300
+
 huayra-grub-themes (1.15.11) unstable; urgency=medium
 
   * Modificado templates para incluir Huayra-4.0
