@@ -1,3 +1,9 @@
+huayra-grub-themes (1.16) unstable; urgency=medium
+
+  * nuevo theme Juana Manso
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 26 Feb 2021 11:19:44 -0300
+
 huayra-grub-themes (1.15.12b) unstable; urgency=medium
 
   * Todos los temas tienen un archivo huayra-grub.png
