@@ -54,8 +54,8 @@ terminal-box: "../terminal/terminal_*.png"
 +image {
 	top = 60%+86
 	left = 50%-200
-	width = 171
-	height = 46
+	width = 160
+	height = 51
 	file = "../logos/logo_educar.png"
 
 }
@@ -63,8 +63,8 @@ terminal-box: "../terminal/terminal_*.png"
 +image {
 	top = 60%+50
 	left = 50%+40
-	width = 159
-	height = 72
+	width = 228
+	height = 48
 	file = "../logos/logo_huayra.png"
 }
 
