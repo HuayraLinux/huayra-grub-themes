@@ -52,7 +52,7 @@ terminal-box: "../terminal/terminal_*.png"
 }
 
 +image {
-	top = 60%+86
+	top = 100%-70
 	left = 50%-200
 	width = 160
 	height = 51
@@ -61,7 +61,7 @@ terminal-box: "../terminal/terminal_*.png"
 }
 
 +image {
-	top = 60%+50
+	top = 100%-70
 	left = 50%+40
 	width = 228
 	height = 48
@@ -81,7 +81,7 @@ terminal-box: "../terminal/terminal_*.png"
 #Mensaje de instrucciones
 
 +image {
-	top = 100%-85
+	top = 100%-100
 	left = 50%-360
 	width = 721
 	height = 33
@@ -95,7 +95,7 @@ terminal-box: "../terminal/terminal_*.png"
 		id = "__timeout__"
 		left = 30%
 		width = 40%
-		top = 100%-130
+		top = 100%-150
 		height = 8 # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 6"
 		text_color = "255, 255, 255"
