@@ -31,7 +31,7 @@ terminal-box: "../terminal/terminal_*.png"
 		icon_width = 24
 		icon_height = 24
 		item_icon_space = 20
-		selected_item_pixmap_style= "../select/select_bkg_*.png"
+		selected_item_pixmap_style= "../menu/menu_highlight*.png"
 		menu_pixmap_style = "../menu/menu_bkg_*.png"
 		scrollbar = true
 		scrollbar_width = 46
@@ -70,13 +70,13 @@ terminal-box: "../terminal/terminal_*.png"
 
 #Mensaje de opciones
 
-+image {
-	top = 12%
-	left = 50%-93
-	width = 186
-	height = 44
-	file = "../textos/opciones.png"
-}
+#+image {
+#	top = 12%
+#	left = 50%-93
+#	width = 186
+#	height = 44
+#	file = "../textos/opciones.png"
+#}
 
 #Mensaje de instrucciones
 
