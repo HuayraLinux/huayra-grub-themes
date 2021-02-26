@@ -1,3 +1,9 @@
+huayra-grub-themes (1.17) unstable; urgency=medium
+
+  * fix nombre de paquete 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 26 Feb 2021 11:55:53 -0300
+
 huayra-grub-themes (1.16) unstable; urgency=medium
 
   * nuevo theme Juana Manso

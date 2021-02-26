@@ -60,7 +60,7 @@ Description: Tema Huayra 4.0 para grub de Huayra
  En este paquete se encuentra la version Huayra 4.0 de
  los temas desarrollados en Huayra para GRUB.
 
-Package: huayra-grub-themes-huayra-jm
+Package: huayra-grub-themes-jm
 Architecture: all
 Depends: ${misc:Depends}, debianutils (>= 4.3.2),
     huayra-grub-themes
