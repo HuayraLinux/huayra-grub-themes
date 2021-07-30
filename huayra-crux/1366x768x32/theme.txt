@@ -52,10 +52,10 @@ terminal-box: "../terminal/terminal_*.png"
 }
 
 +image {
-	top = 100%-110
-	left = 50%-200
-	width = 160
-	height = 51
+	top = 100%-130
+	left = 50%-240
+	width = 481
+	height = 73
 	file = "../logos/logo_CPE.png"
 
 }
