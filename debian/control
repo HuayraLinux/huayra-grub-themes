@@ -3,7 +3,7 @@ Section: graphics
 Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.5
+Standards-Version: 4.3.0
 Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-grub-themes
@@ -67,4 +67,13 @@ Depends: ${misc:Depends}, debianutils (>= 4.3.2),
 Description: Tema Juana Manso para grub de Huayra
  En este paquete se encuentra la version Juana Manso de
  los temas desarrollados en Huayra para GRUB.
+
+Package: huayra-grub-themes-crux
+Architecture: all
+Depends: ${misc:Depends}, debianutils (>= 4.3.2),
+    huayra-grub-themes
+Description: Tema Crux para grub de Huayra
+ En este paquete se encuentra la version Crux de
+ los temas desarrollados en Huayra para GRUB.
+
 

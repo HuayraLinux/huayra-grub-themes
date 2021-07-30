@@ -6,7 +6,7 @@ Description: Instalación automatica del tema:
 
 Template: huayra-grub-themes/theme
 Type: select
-Choices: huayra-jm, huayra-limbo, huayra-liso, huayra-liso-3.0, huayra-ocho, huayra-liso-3.3, huayra-4.0
+Choices: huayra-jm, huayra-crux, huayra-limbo, huayra-liso, huayra-liso-3.0, huayra-ocho, huayra-liso-3.3, huayra-4.0
 Default: huayra-jm
 Description: Tema para grub:
  Seleccione el tema que desea habilitar en grub
@@ -14,7 +14,7 @@ Description: Tema para grub:
 Template: huayra-grub-themes/resolution
 Type: select
 Choices: 800x600x32, 1024x600x32, 1024x768x32, 1280x1024x32, 1366x768x32, 1440x900x32
-Default: 800x600x32
+Default: 1366x768x32
 Description: Resolución de entrada de grub:
  Seleccione la resolución que debe tener grub al iniciar.
- MarblePoint(1366x768), CedarTrail/TangoPoint(1024x600)
+ SF20GM7(1366x768), MarblePoint(1366x768), CedarTrail/TangoPoint(1024x600)
