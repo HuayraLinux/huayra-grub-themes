@@ -71,8 +71,8 @@ terminal-box: "../terminal/terminal_*.png"
 +image {
 	top = 100%-70
 	left = 50%+40
-	width = 234
-	height = 56
+	width = 240
+	height = 61
 	file = "../logos/logo_huayracrux_grub.png"
 }
 
