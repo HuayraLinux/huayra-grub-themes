@@ -1,3 +1,10 @@
+huayra-grub-themes (1.20) unstable; urgency=medium
+
+  [ malefico ]
+  * Nuevo logo
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sat, 31 Jul 2021 22:58:42 -0300
+
 huayra-grub-themes (1.19) unstable; urgency=medium
 
   * Nuevo theme Crux
