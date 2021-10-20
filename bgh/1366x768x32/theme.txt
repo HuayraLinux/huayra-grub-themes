@@ -56,7 +56,7 @@ terminal-box: "../terminal/terminal_*.png"
 	left = 50%-500
 	width = 381
 	height = 51
-	file = "../logos/positivo_bgh_chico.png"
+	file = "../logos/positivo_BGH_chico.png"
 
 }
 
