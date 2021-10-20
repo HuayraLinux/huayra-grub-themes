@@ -52,17 +52,17 @@ terminal-box: "../terminal/terminal_*.png"
 }
 
 +image {
-	top = 100%-70
-	left = 50%-500
-	width = 381
-	height = 51
+	top = 100%-60
+	left = 50%-200
+	width = 200
+	height = 27
 	file = "../logos/positivo_BGH_chico.png"
 
 }
 
 +image {
 	top = 100%-70
-	left = 50%-100
+	left = 50%-50
 	width = 160
 	height = 51
 	file = "../logos/logo_educar.png"
@@ -71,7 +71,7 @@ terminal-box: "../terminal/terminal_*.png"
 
 +image {
 	top = 100%-70
-	left = 50%+70
+	left = 50%+100
 	width = 228
 	height = 48
 	file = "../logos/logo_huayra.png"
