@@ -53,7 +53,7 @@ terminal-box: "../terminal/terminal_*.png"
 
 +image {
 	top = 100%-60
-	left = 50%-200
+	left = 50%-250
 	width = 200
 	height = 27
 	file = "../logos/positivo_BGH_chico.png"
@@ -71,7 +71,7 @@ terminal-box: "../terminal/terminal_*.png"
 
 +image {
 	top = 100%-70
-	left = 50%+100
+	left = 50%+120
 	width = 228
 	height = 48
 	file = "../logos/logo_huayra.png"
