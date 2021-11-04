@@ -41,31 +41,12 @@ terminal-box: "../terminal/terminal_*.png"
 
 #Carga logos 1366x768
 
-
-
-+image {
-	top = 10
-	left = 0
-	width = 1366
-	height = 54
-	file = "../logos/logos-1366x768.png"
-}
-
 +image {
 	top = 100%-60
 	left = 50%-320
 	width = 200
 	height = 27
 	file = "../logos/positivo_BGH_chico.png"
-
-}
-
-+image {
-	top = 100%-70
-	left = 50%-70
-	width = 160
-	height = 51
-	file = "../logos/logo_educar.png"
 
 }
 
@@ -108,7 +89,7 @@ terminal-box: "../terminal/terminal_*.png"
 		height = 8 # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 6"
 		text_color = "255, 255, 255"
-		text = "Plan Federal - Juana Manso"
+		text = "POSITIVO BGH - Cargando..."
 		#text = "Cargando..."
 		show_text = false # Esta linea parece que es ignorada en esta version de GRUB.
 		bar_style = "../progress/progress_bar_*.png"
