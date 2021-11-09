@@ -99,7 +99,7 @@ terminal-box: "../terminal/terminal_*.png"
 		height = 8 # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 6"
 		text_color = "255, 255, 255"
-		text = "Plan Federal - Juana Manso"
+		text = "Conectar Igualdad"
 		#text = "Cargando..."
 		show_text = false # Esta linea parece que es ignorada en esta version de GRUB.
 		bar_style = "../progress/progress_bar_*.png"
