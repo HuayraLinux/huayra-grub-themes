@@ -68,6 +68,14 @@ Description: Tema Juana Manso para grub de Huayra
  En este paquete se encuentra la version Juana Manso de
  los temas desarrollados en Huayra para GRUB.
 
+Package: huayra-grub-themes-ci-2021
+Architecture: all
+Depends: ${misc:Depends}, debianutils (>= 4.3.2),
+    huayra-grub-themes
+Description: Tema Conectar Igualdad para grub de Huayra
+ En este paquete se encuentra la version Conectar
+ Igualdad de los temas desarrollados en Huayra para GRUB.
+
 Package: huayra-grub-themes-crux
 Architecture: all
 Depends: ${misc:Depends}, debianutils (>= 4.3.2),

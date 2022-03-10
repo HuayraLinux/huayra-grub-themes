@@ -1,8 +1,11 @@
-huayra-grub-themes (1.21) UNRELEASED; urgency=medium
+huayra-grub-themes (1.21) unstable; urgency=medium
 
   [ Fernando Toledo ]
   * renombrado del directorio
   * agregando archivos de paquete para el theme nuevo
+
+  [ Matias De lellis ]
+  * Agrega tema al control
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 23 Nov 2021 12:21:26 -0300
 
