@@ -1,3 +1,9 @@
+huayra-grub-themes (1.22) unstable; urgency=medium
+
+  * update crux 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 30 Mar 2022 16:36:10 -0300
+
 huayra-grub-themes (1.21) unstable; urgency=medium
 
   [ Fernando Toledo ]
