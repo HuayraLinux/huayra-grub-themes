@@ -19,7 +19,7 @@ terminal-box: "../terminal/terminal_*.png"
 + boot_menu {
 		left = 15%
 		width = 70%
-		top = 20%
+		top = 100%-316
 		height = 40%
 		item_font = "Asap Regular 11"
 		selected_item_font = "Asap Regular 11"
@@ -81,8 +81,8 @@ terminal-box: "../terminal/terminal_*.png"
 #Mensaje de instrucciones
 
 +image {
-	top = 100%-127
-	left = 50%-360
+	top = 100%-213
+	left = 50%-325
 	width = 721
 	height = 33
 	file = "../textos/instrucciones.png"
@@ -93,9 +93,9 @@ terminal-box: "../terminal/terminal_*.png"
 # Barra de progreso horizontal
 + progress_bar {
 		id = "__timeout__"
-		left = 30%
+		left = 50%-265
 		width = 40%
-		top = 100%-167
+		top = 100%-213
 		height = 8 # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 6"
 		text_color = "255, 255, 255"
