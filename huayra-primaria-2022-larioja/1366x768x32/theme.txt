@@ -1,4 +1,4 @@
-# Tema Conectar Igualdad 2021 para GRUB2.
+# Tema Huayra Primaria 2022 para GRUB2.
 # Pensado para 1366x768
 # Diseñado por Claudio Andaur
 # Codificacion por Claudio Andaur
@@ -44,29 +44,29 @@ terminal-box: "../terminal/terminal_*.png"
 
 
 +image {
-	top = 10
-	left = 0
-	width = 1366
-	height = 54
+	top = 46
+	left = 183
+	width = 975
+	height = 71
 	file = "../logos/logos-1366x768.png"
 }
 
-+image {
-	top = 100%-70
-	left = 50%-200
-	width = 160
-	height = 51
-	file = "../logos/logo_educar.png"
+#+image {
+#	top = 100%-70
+#	left = 50%-200
+#	width = 160
+#	height = 51
+#	file = "../logos/logo_educar.png"
 
-}
+#}
 
-+image {
-	top = 100%-70
-	left = 50%+40
-	width = 228
-	height = 48
-	file = "../logos/logo_huayra.png"
-}
+#+image {
+#	top = 100%-70
+#	left = 50%+40
+#	width = 228
+#	height = 48
+#	file = "../logos/logo_huayra.png"
+#}
 
 #Mensaje de opciones
 
@@ -99,7 +99,7 @@ terminal-box: "../terminal/terminal_*.png"
 		height = 8 # Esta linea parece que es ignorada en esta version de GRUB.
 		font = "Asap Regular 6"
 		text_color = "255, 255, 255"
-		text = "Conectar Igualdad"
+		text = "Huayra Primaria"
 		#text = "Cargando..."
 		show_text = false # Esta linea parece que es ignorada en esta version de GRUB.
 		bar_style = "../progress/progress_bar_*.png"
