@@ -19,8 +19,8 @@ terminal-box: "../terminal/terminal_*.png"
 + boot_menu {
 		left = 15%
 		width = 70%
-		top = 100%-316
-		height = 40%
+		top = 100%-616
+		height = 50%
 		item_font = "Asap Regular 11"
 		selected_item_font = "Asap Regular 11"
 		item_color = "#000000"
