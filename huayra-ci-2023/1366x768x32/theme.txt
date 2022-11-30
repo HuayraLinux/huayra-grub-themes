@@ -23,7 +23,7 @@ terminal-box: "../terminal/terminal_*.png"
 		height = 45%
 		item_font = "Asap Regular 11"
 		selected_item_font = "Asap Regular 11"
-		item_color = "#000000"
+		item_color = "#00aad4"
 		selected_item_color = "#FFFFFF"
 		item_height = 25
 		item_padding = 15
@@ -52,7 +52,7 @@ terminal-box: "../terminal/terminal_*.png"
 }
 
 +image {
-	top = 100%-70
+	top = 100%-115
 	left = 50%-200
 	width = 160
 	height = 51
@@ -61,7 +61,7 @@ terminal-box: "../terminal/terminal_*.png"
 }
 
 +image {
-	top = 100%-70
+	top = 100%-115
 	left = 50%+40
 	width = 228
 	height = 48
