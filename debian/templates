@@ -6,7 +6,7 @@ Description: Instalación automatica del tema:
 
 Template: huayra-grub-themes/theme
 Type: select
-Choices: huayra-ci-2021, huayra-jm, huayra-crux, huayra-limbo, huayra-liso, huayra-liso-3.0, huayra-ocho, huayra-liso-3.3, huayra-4.0
+Choices: huayra-ci-2021, huayra-jm, huayra-crux, huayra-limbo, huayra-liso, huayra-liso-3.0, huayra-ocho, huayra-liso-3.3, huayra-4.0, huayra-pba
 Default: huayra-ci-2021
 Description: Tema para grub:
  Seleccione el tema que desea habilitar en grub
