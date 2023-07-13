@@ -1,3 +1,9 @@
+huayra-grub-themes (1.25) unstable; urgency=medium
+
+  * nuevo theme pba
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 13 Jul 2023 16:06:18 -0300
+
 huayra-grub-themes (1.22) unstable; urgency=medium
 
   * update crux 
