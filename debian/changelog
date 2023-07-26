@@ -1,3 +1,9 @@
+huayra-grub-themes (1.26) unstable; urgency=medium
+
+  * fix theme.txt de huayra-pba 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 26 Jul 2023 15:48:46 -0300
+
 huayra-grub-themes (1.25) unstable; urgency=medium
 
   * nuevo theme pba
