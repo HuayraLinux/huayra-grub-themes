@@ -17,8 +17,8 @@ terminal-box: "../terminal/terminal_*.png"
 
 # Menu de arranque
 + boot_menu {
-		left = 15%
-		width = 70%
+		left = 5%
+		width = 45%
 		top = 20%
 		height = 40%
 		item_font = "Asap Regular 11"
@@ -40,33 +40,25 @@ terminal-box: "../terminal/terminal_*.png"
 }
 
 #Carga logos 1366x768
+#
+#+image {
+#    top = 10
+#    left = 0
+#    width = 1366
+#    height = 54
+#    file = "../logos/logos-1366x768.png"   
+#}
+#
+#+image {
+#    top = 100%-70
+#    left = 50%-200
+#    width = 160
+#    height = 51
+#    file = "../logos/logo_educar.png"
+#    
+#}
+#
 
-
-
-+image {
-	top = 10
-	left = 0
-	width = 1366
-	height = 54
-	file = "../logos/logos-1366x768.png"
-}
-
-+image {
-	top = 100%-70
-	left = 50%-200
-	width = 160
-	height = 51
-	file = "../logos/logo_educar.png"
-
-}
-
-+image {
-	top = 100%-70
-	left = 50%+40
-	width = 228
-	height = 48
-	file = "../logos/logo_huayra.png"
-}
 
 #Mensaje de opciones
 
@@ -81,7 +73,7 @@ terminal-box: "../terminal/terminal_*.png"
 #Mensaje de instrucciones
 
 +image {
-	top = 100%-127
+	top = 100%-215
 	left = 50%-360
 	width = 721
 	height = 33
@@ -105,6 +97,5 @@ terminal-box: "../terminal/terminal_*.png"
 		bar_style = "../progress/progress_bar_*.png"
 		highlight_style = "../progress/progress_highlight_*.png"
 }
-
 
 
