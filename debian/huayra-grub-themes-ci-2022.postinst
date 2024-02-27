@@ -1,0 +1,78 @@
+#!/bin/sh
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+Grub_File=/etc/default/grub
+Theme_Dir=/boot/grub/themes
+
+if [ "$1" = "configure" ]; then
+
+    db_version 2.0
+
+    # The following only on a new install
+    if [ "$2" = "" ]; then
+        echo "Instalando tema de grub por primera vez"
+    fi
+
+    db_get huayra-grub-themes/set_theme
+    set_theme="$RET"
+
+  if [ "$set_theme" = "true" ]; then
+
+    db_get huayra-grub-themes/theme
+    theme="$RET"
+
+    db_get huayra-grub-themes/resolution
+    resolution="$RET"
+
+    if [ -f $Grub_File ];
+    then
+        echo "Comprobando si existe un thema actual en grub"
+        i=$(sed -n 's,^#\?GRUB_THEME=,&,p' $Grub_File)
+
+        if [ -z $i ]; then
+            echo "Agregando tema al grub"
+            echo "\nGRUB_THEME=$Theme_Dir/$theme/$resolution/theme.txt" >>$Grub_File
+        else
+            echo "Reemplazando el tema actual por $theme"
+            sed "s,^#\?GRUB_THEME=.*,GRUB_THEME=$Theme_Dir/$theme/$resolution/theme.txt," <$Grub_File >$Grub_File.~
+            mv $Grub_File.~ $Grub_File
+        fi
+
+        echo "Comprobando resolución actual"
+        i=$(sed -n 's,^#\?GRUB_GFXMODE=,&,p' $Grub_File)
+
+        if [ -z $i ]; then
+            echo "Agregando resolución"
+            echo "\nGRUB_GFXMODE=$resolution" >>$Grub_File
+        else
+            echo "Reemplazando la resolucion actual por $resolution"
+            sed "s,^#\?GRUB_GFXMODE=.*,GRUB_GFXMODE=$resolution," <$Grub_File >$Grub_File.~
+            mv $Grub_File.~ $Grub_File
+        fi
+
+        echo "Comprobando background"
+        i=$(sed -n 's,^#\?GRUB_BACKGROUND=,&,p' $Grub_File)
+
+        if [ -z $i ]; then
+            echo "Agregando background"
+            echo "\nGRUB_BACKGROUND=$Theme_Dir/$theme/huayra-grub.png" >>$Grub_File
+        else
+            echo "Reemplazando background"
+            sed "s,^#\?GRUB_BACKGROUND=.*,GRUB_BACKGROUND=$Theme_Dir/$theme/huayra-grub.png," <$Grub_File >$Grub_File.~
+            mv $Grub_File.~ $Grub_File
+        fi
+
+         echo "Actualizando grub"
+        if test -e /boot/grub/grub.cfg && [ "$(stat -c %d/%i /)" = "$(stat -Lc %d/%i /proc/1/root 2>/dev/null)" ] ; then
+            update-grub
+        fi
+    fi
+  fi
+fi
+
+#DEBHELPER#
+
+exit 0

@@ -76,6 +76,22 @@ Description: Tema Conectar Igualdad para grub de Huayra
  En este paquete se encuentra la version Conectar
  Igualdad de los temas desarrollados en Huayra para GRUB.
 
+Package: huayra-grub-themes-ci-2022
+Architecture: all
+Depends: ${misc:Depends}, debianutils (>= 4.3.2),
+    huayra-grub-themes
+Description: Tema Conectar Igualdad para grub de Huayra
+ En este paquete se encuentra la version Conectar
+ Igualdad de los temas desarrollados en Huayra para GRUB.
+
+Package: huayra-grub-themes-ci-2023
+Architecture: all
+Depends: ${misc:Depends}, debianutils (>= 4.3.2),
+    huayra-grub-themes
+Description: Tema Conectar Igualdad para grub de Huayra
+ En este paquete se encuentra la version Conectar
+ Igualdad de los temas desarrollados en Huayra para GRUB.
+
 Package: huayra-grub-themes-crux
 Architecture: all
 Depends: ${misc:Depends}, debianutils (>= 4.3.2),
