@@ -1,3 +1,9 @@
+huayra-grub-themes (1.29) unstable; urgency=medium
+
+  * Arreglo logos institucionales en CI23
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 27 Feb 2024 12:10:07 -0300
+
 huayra-grub-themes (1.28) unstable; urgency=medium
 
   * Agrega los temas Conectar Igualdad 2022 y 2023
